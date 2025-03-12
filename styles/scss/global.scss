@@ -1,0 +1,49 @@
+@use './reset';
+@use './variables' as *;
+@use './typography' as *;
+@use './utilities/index';
+
+body {
+    font-family: $font-family;
+    font-size: $fs-base;
+    background-color: $clr-grey-200;
+    color: $clr-grey-400;
+    margin: 0 auto;
+}
+
+h2 {
+    color: $clr-grey-900;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $spacing-400;
+    background-color: $clr-white;
+    margin: auto;
+}
+.flow > * + * {
+    margin-bottom: $spacing-300;
+}
+.wrapper {
+    padding: 0 $spacing-300;
+}
+
+.preview-title {
+    margin-top: 0;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+
+    img {
+        height: 100%;
+    }
+
+    &__info {
+        display: inline;
+    }
+
+}

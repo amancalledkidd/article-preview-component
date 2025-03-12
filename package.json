@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "npx sass styles/scss/global.scss styles/css/global.css --watch",
+    "build": "npx sass styles/scss/global.scss styles/css/global.css --style=compressed"
+  },
+  "dependencies": {
+    "sass": "^1.85.1"
+  }
+}
