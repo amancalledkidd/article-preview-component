@@ -11,8 +11,11 @@
 </head>
 <body>
   <article class="border-rad">
-  <img src="./images/drawers.jpg" alt="Green drawers with an orange vase and photo frames">
-  <div class="wrapper flow">
+    <picture>
+      <img class="border-rad" src="./images/drawers.jpg" alt="Green drawers with an orange vase and photo frames">
+    </picture>
+  
+  <div class="container wrapper flow">
     <h2 class="preview-title text-1">Shift the overall look and feel by adding these wonderful touches to furniture in your home</h2>
     <p>
       Ever been in a room and felt like something was missing? Perhaps 
@@ -20,15 +23,16 @@
       to help you make any room feel complete.
     </p>
     <div class="card">
-      <div>
-
+      <div class="card__user">
         <img src="./images/avatar-michelle.jpg" alt="">
-        <div class="card__info">
+        <div class="card__user--info">
           <h3>Michelle Appleton</h3>
           <time datetime="2020-06-28">28 Jun 2020</time>
         </div>
       </div>
-      <img src="./images/icon-share.svg" alt="Share button">
+      <div class="share-icon">
+        <img src="./images/icon-share.svg" alt="Share button">
+      </div>  
     </div>
   </div>
 </article>

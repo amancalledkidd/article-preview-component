@@ -1,0 +1,12 @@
+@use '../variables' as vars;
+
+.share-icon {
+    display: flex;
+    background-color: vars.$clr-grey-200;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    img {
+        margin: auto;
+    }
+}

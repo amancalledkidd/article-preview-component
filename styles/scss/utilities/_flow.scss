@@ -1,0 +1,5 @@
+@use '../variables' as vars;
+
+.flow > * + * {
+    margin-bottom: vars.$spacing-300;
+}
